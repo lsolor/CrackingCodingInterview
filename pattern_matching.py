@@ -68,6 +68,9 @@ def pattern_matching(pattern, value):
 
 
 if __name__ == '__main__':
-    pattern = "aabab"
-    value = "catcatgocatgo"
-    pattern_matching(pattern, value)
+   # pattern = "aabab"
+   # value = "catcatgocatgo"
+    #pattern_matching(pattern, value)
+    graph = [[4],[],[4],[4],[0,2,3]]
+    for i in range(len(graph)):
+        print(len(graph[i]))
