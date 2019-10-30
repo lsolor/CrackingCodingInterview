@@ -5,7 +5,7 @@ class Solution:
         for i in range(len(graph)):
             if len(graph[i]) == 0:
                 return False
-#ad
+
         A = set()
         B = set()
         visited = set()
